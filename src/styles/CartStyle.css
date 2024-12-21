@@ -1,0 +1,128 @@
+
+.cart-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .cart-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .cart-item .item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item .item-details h5 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .cart-item .item-details p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .cart-item .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .cart-item .quantity-controls button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .cart-item .quantity-controls span {
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .cart-item .remove-btn {
+    padding: 6px 12px;
+    background-color: #ff4f5d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cart-item .remove-btn:hover {
+    background-color: #ff1a2a;
+  }
+  
+  .checkout-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .checkout-btn {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .cart-empty {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777;
+    margin-top: 50px;
+  }
+
+  .cart-empty {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777;
+    margin-top: 50px;
+  }
+  
+  .cart-modal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-modal .modal-footer {
+    background-color: #f8f9fa;
+  }
+  
+  .cart-modal .cart-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart-modal .cart-item button {
+    margin-left: 10px;
+  }
+  
